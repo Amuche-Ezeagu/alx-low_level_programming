@@ -1,9 +1,10 @@
 #include <stdio.h>
 #include <unistd.h>
 /**
- * main -entry point
+ * main - entry point "and that piece of art is useful"
  *
- * Return 0 after printing the function
+ * - Dora Korpar, 2015-10-19",followed by new line to the standard error."
+ *   Return: Always 0 (success)
  */
 int main(void)
 {
