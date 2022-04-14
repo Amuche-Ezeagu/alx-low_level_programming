@@ -6,8 +6,13 @@
 int main(void)
 {
 	int count;
-	unsigned long int i, j, k;
-	unsigned long int m, n, p, carry;
+	unsigned long i, j, k;
+	unsigned long m, n, p, carry;
+
+	cout = 0;
+	i = 0;
+	j = 1;
+	for (count = 1; count <= 91; count++)
 	{
 		k = i + j;
 		i = j;
