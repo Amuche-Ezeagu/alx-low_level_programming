@@ -6,8 +6,8 @@
 int main(void)
 {
 	int count;
-	unsigned long i, j, k;
-	unsigned long m, n, p, carry;
+	unsigned long int i, j, k;
+	unsigned long int m, n, p, carry;
 	{
 		k = i + j;
 		i = j;
