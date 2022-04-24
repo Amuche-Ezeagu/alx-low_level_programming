@@ -17,7 +17,7 @@ char *string_toupper(char *s1)
 	for (i = 0; s1[i] != '\0'; i++)
 	{
 		k = 0;
-		for (j = 'a'; j <= 'z', j++, k++)
+		for (j = 'a'; j <= 'z'; j++, k++)
 		{
 			if (s1[i] == j)
 				s1[i] = l[k];
