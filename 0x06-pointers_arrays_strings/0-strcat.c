@@ -7,7 +7,7 @@
  * @src: is a pointer type char
  * Return: always 0
  */
-char *_strcat(char *dest; char *src)
+char *_strcat(char *dest, char *src)
 {
 	int i, j;
 	for ( i = 0; *dest != 0; i++)
