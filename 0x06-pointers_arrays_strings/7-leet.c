@@ -15,7 +15,7 @@ char *leet(char *a)
 
 	for (i = 0; a[i] != '\0'; i++)
 	{
-	for (j = 0; leet[j] != '\0'; j++)
+		for (j = 0; leet[j] != '\0'; j++)				
 				{
 					if (a[i] == leet[j])
 						a[i] = chan[i];
@@ -24,4 +24,3 @@ char *leet(char *a)
 	}
 	return (a);
 }
-
