@@ -4,9 +4,10 @@
 /**
  * rot13 - a function that encodes a string using rot13
  * @a: is a pointer type char
- * Return 0 always
+ * Return: 0 always
  *
  */
+
 char *rot13(char *a)
 {
 	char leet[] = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
