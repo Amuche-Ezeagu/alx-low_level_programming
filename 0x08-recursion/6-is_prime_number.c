@@ -27,10 +27,10 @@ int prime_check(int f, int p)
  *
  * @n: number to check
  *
- * :Return: 1 if prime, 0 if not
+ * Return: 1 if prime, 0 if not
  */
 
-int is_prime_number(int n)
+int is_prime_number(int	n)
 {
 	if (n == 2)
 		return (1);
