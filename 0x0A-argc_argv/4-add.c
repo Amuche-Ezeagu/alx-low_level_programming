@@ -17,11 +17,11 @@ int main(int argc, char *argv[])
 	char *ptr;
 
 	if (argc < 2)
-		printf("0\n");
+	printf("0\n");
 	else
 	{
 		sum = 0;
-		for (i = 1; < argc; i++)
+		for (i = 1; i < argc; i++)
 		{
 			ptr = argv[i];
 			length = strlen(ptr);
